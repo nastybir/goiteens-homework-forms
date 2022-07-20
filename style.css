@@ -103,7 +103,7 @@ html{
   50%{
     left: 75px;
     top: 75px;
-    background-color: darkmagenta;
+    background-color: gold ;
   }
 
   75%{
@@ -463,7 +463,7 @@ text-transform: uppercase;
       color: #fff;
       height: 70px;
       width: 370px;
-      top: 1677px;
+      top: 1577px;
       align-items: center;
       }
       .overlay-text{
