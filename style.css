@@ -404,7 +404,7 @@ text-transform: uppercase;
   }
   
   .field label{
-    font-size: 12px ;
+    /* font-size: 12px ; */
     margin-bottom: 4px;
   }
 
@@ -469,6 +469,8 @@ text-transform: uppercase;
   background-color:var(--accent-color);
   border: 2px solid var(--accent-color);
 }
+
+
 
 .field-label a{
 color: var(--accent-color);
