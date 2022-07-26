@@ -64,31 +64,56 @@
        <div class="modal">
          <button type="button" class="modal-button" data-modal-close></button>
          <!-- Форма модального вікна -->
+    
          <form class="form js-speaker-form" autocomplete="on">
-           <label for="user-name">Ім'я</label>
+           <h3 class="title">Залиште свої дані, ми Вам зателефонуємо</h3>
+           <ul class="fields">
+             <li class="field">
+                <label for="user-name">Ім'я</label>
            <input 
                class="form-field" 
                type="text" 
                name="user-name" 
                id="user-name" 
                autofocus>
+               <svg class="form-icon" width="18px"
+               height="18px">
+                 <use href="./img/iconssvg#person.svg"></use>
+               </svg>
+             </li>
 
+
+             <li class="field">
            <label for="user-tel">Телефон</label>
            <input 
                class="form-field" 
                type="tel" 
                name="user-tel" i
                d="user-tel">
+               <svg class="form-icon" width="18px"
+               height="18px">
+                <use href="./img/iconssvg#phoneform.svg"></use>
+              </svg>
+             </li>
 
+
+             <li class="field">
            <label for="user-email">Пошта</label>
            <input 
                class="form-field" 
                type="email" 
                name="user-email" 
                id="user-email">
-               
-          
-          <label for="coments">Коментарі</label>
+
+               <svg class="form-icon" width="18px"
+               height="18px">
+                <use href="./img/iconssvg#email.svg"></use>
+              </svg>
+             </li>
+
+
+             <li class="field">
+           <label for="coments">Коментарі</label>
           <textarea 
           class="textarea" 
           name="coments" 
@@ -96,14 +121,21 @@
           rows="10" 
           placeholder="Введіть коментар">
         </textarea>
+
+    
           
+
+         <div class="checkbox">
           <label class="field-label">
             <input type="checkbox" name="checkbox" value="checkbox" checked>
+            <svg class="checkbox" width="16" height="15">
+              <use href="./img/"></use>
+            </svg>
             Погоджуюсь з розсилкою і приймаю 
             <a href="./">Умови договору</a> 
           </label>
-
-          <button type="submit">Надіслати</button>
+</div>
+          <button type="submit" class="hero-button btn">Надіслати</button>
          </form>
        </div>
      </div>
@@ -308,6 +340,6 @@
           </footer>
           
   <script src="./js/modal.js" type="module"></script>
-  <script src=""></script>
+  <script src="./js/form.js" type="module"></script>
 </body>
 </html>
